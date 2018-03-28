@@ -1,0 +1,13 @@
+{
+  "name": "Flask translator",
+  "description": "Flask translaor with JSON API",
+  "keywords": [
+    "flask",
+    "python",
+    "sample"
+  ],
+  "repository": "https://git.heroku.com/translator-133.git",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
