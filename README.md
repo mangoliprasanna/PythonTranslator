@@ -1,28 +1,15 @@
-Flask Heroku Sample
-====================
+# Python Translator
+_The basic Translator helps translating words in different languages._
 
-A simple Python Flask example application that's ready to run on Heroku.
+## Website Version
+The web version of project is available in following link.
+> http://translator-133.herokuapp.com/
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## API
+The project also provide API service which return the translation in JSON format.
+The basic syntax for API.
+> http://translator-133.herokuapp.com/JSON/word
 
-## Development Setup
-
-* `virtualenv venv`
-
-* `source venv/bin/activate`
-
-* `pip install -r requirements.txt`
-
-* `python app.py`
-
-## Deploy
-
-* `heroku create`
-
-* `heroku addons:create heroku-postgresql:hobby-dev`
-
-* `git push heroku master`
-
-## Contributors
-
-* [Yefim](https://twitter.com/yefim)
+## Android APP
+with help of JSON api the Android app is available. which provide the same features thet web version does.
+> https://github.com/mangoliprasanna/AndroidTranslator
